@@ -1,0 +1,265 @@
+body{
+     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+     background-color: #f9f9f9;
+     font-size: 14px;
+     line-height: 1.428571429;
+     color: #333333;
+    position: relative;
+ }
+a:hover{
+    text-decoration: none;
+}
+.navbar{
+    min-height: 78px;
+}
+.navbar-default{
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.logo{
+    padding: 0;
+}
+.container{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.navbar-nav{
+    margin-top: 15px;
+}
+.navbar-nav>li>a{
+    line-height: 5px;
+}
+#nav ul{
+    margin-top: 22px;
+}
+#nav ul li{
+    padding-right: 30px;
+}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover{
+    color: #008bed;
+   padding-left: 30px;
+    padding-right: 30px;
+    text-align:center ;
+    background: #f0f9ff;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 16px;
+    color: black;
+}
+.tab1{
+    margin-top: 78px;
+    background: #008bed;
+}
+
+.tab1 .right{
+    margin-top: 100px;
+}
+.tab1 .right h1{
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+}
+.tab1 .right .info{
+    font-size: 10px;
+    color: #99d1f8;
+    line-height: 25px;
+}
+.tab1 .right .row{
+    margin-top: 20px;
+    padding:20px 0;
+}
+.tab1 .btn-group{
+   margin-left: -30px;
+
+}
+.tab1 .btn-group .btn{
+    width: 80px;
+    height: 30px;
+    color: black;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 4px;
+}
+.tab1 .btn-group .btn1{
+    padding-bottom: 20px;
+}
+.tab1 .btn-group .btn1:hover{
+    opacity: 0.8;
+}
+.tab1 .android{
+    margin-bottom: -1px;
+}
+.tab1 .dropdown-menu{
+    padding: 0;
+    margin: 0;
+    width: 194px;
+}
+.tab1 .dropdown-menu li{
+    color: #444444;
+    text-align: center;
+    font-size: 12px;
+}
+.tab1 .dropdown-menu li a{
+    line-height: 20px;
+}
+.tab2 .section-head .head-left{
+    float: left;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0 40px 0;
+}
+.tab2 .section-head .head-right{
+    float: right;
+    color: #ccc;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0 40px 0;
+}
+
+.tab2 .row{
+    clear:both;
+}
+.tab2 .caption h4{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+.tab2 .row img{
+    padding-top: 10px;
+}
+.more{
+    margin: 20px 0;
+}
+.more .container{
+    clear: both;
+    cursor: pointer;
+}
+.more p{
+    font-size: 14px;
+    color: #15527b;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.more .alert-info{
+    background: #e8eef2;
+    border-color: #e8eef2;
+}
+#footer{
+    color: #666;
+    background: #e5e5e5;
+}
+#footer p{
+    line-height: 26px;
+}
+#footer .container{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#footer .footer-right{
+    float: right;
+}
+#footer .footer-right p{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 16px;
+    width: 200px;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    .tab1 .right h1{
+        font-size: 25px;
+        height: 30px;
+        line-height: 20px;
+    }
+    .tab1 .right .info {
+        font-size: 12px;
+    }
+    .tab1 .btn-group .btn{
+        width: 134px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .tab1 .dropdown-menu li{
+        font-size: 14px;
+    }
+    .tab1 .dropdown-menu li a{
+        line-height: 30px;
+    }
+    .tab2 .section-head .head-left{
+        font-size: 18px;
+    }
+    .tab2 .section-head .head-right{
+        font-size: 18px;
+    }
+    .more p{
+        font-size: 16px;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    .tab1 .right h1{
+        font-size: 35px;
+        height: 40px;
+        line-height: 30px;
+    }
+    .tab1 .right .info {
+        font-size: 14px;
+    }
+    .tab1 .btn-group .btn{
+        width: 164px;
+        height: 34px;
+        font-size: 18px;
+    }
+    .tab1 .dropdown-menu li{
+        font-size: 18px;
+    }
+    .tab1 .dropdown-menu li a{
+        line-height: 40px;
+    }
+    .tab2 .section-head .head-left{
+        font-size: 20px;
+    }
+    .tab2 .section-head .head-right{
+        font-size: 20px;
+    }
+    .more p{
+        font-size: 18px;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    .tab1 .right h1{
+        font-size: 40px;
+        height: 50px;
+        line-height: 40px;
+    }
+    .tab1 .right .info {
+        font-size: 16px;
+    }
+    .tab1 .btn-group .btn{
+        width: 194px;
+        height: 64px;
+        font-size: 20px;
+    }
+    .tab1 .dropdown-menu li{
+            font-size: 20px;
+        }
+    .tab1 .dropdown-menu li a{
+        line-height: 50px;
+    }
+    .tab2 .section-head .head-left{
+        font-size: 25px;
+    }
+    .tab2 .section-head .head-right{
+        font-size: 25px;
+    }
+    .more p{
+        font-size: 20px;
+    }
+}
